@@ -4,7 +4,7 @@ export function Logo({ variant = "light" }: { variant?: "light" | "dark" }) {
       <img
         src="/samtechlogo.png"
         alt="Samtech Fabrication Venture"
-        className={`h-28 w-auto object-contain ${variant === "dark" ? "brightness-95" : ""}`}
+        className={`h-12 md:h-20 lg:h-24 w-auto object-contain ${variant === "dark" ? "brightness-95" : ""}`}
       />
     </div>
   );
